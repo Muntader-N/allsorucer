@@ -122,7 +122,7 @@ async def mybot():
     f"ـ {jep_ment}"
     f"⪼ هذا هو بوت خاص بـ {jep_ment} يمكنك التواصل معه هنا"
     starkbot = await jepiq.tgbot.get_me()
-    perf = "الجوكر 🤡"
+    perf = "ديدثون 👾"
     bot_name = starkbot.first_name
     botname = f"@{starkbot.username}"
     if bot_name.endswith("Assistant"):
@@ -182,14 +182,8 @@ async def add_bot_to_logger_group(chat_id):
             LOGS.error(str(e))
 #by @Jepthon بس اشوفك خامطه للكود اهينك وافضحك 
 
-jepthon = {"@Jepthon", "@jepthonsupport", "@superaljoker"}
 async def saves():
-   for lMl10l in jepthon:
-        try:
-             await jepiq(JoinChannelRequest(channel=lMl10l))
-        except OverflowError:
-            LOGS.error("Getting Flood Error from telegram. Script is stopping now. Please try again after some time.")
-            continue
+    print("تم تخطي جميع الاشتراكات الاجبارية")
 
 async def load_plugins(folder, extfolder=None):
     """
